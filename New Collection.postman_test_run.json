@@ -1,0 +1,258 @@
+{
+	"id": "47ed7d03-7f7d-4d7a-8d3e-2cb83fb715e4",
+	"name": "New Collection",
+	"timestamp": "2022-03-23T12:51:25.228Z",
+	"collection_id": "20111167-c71450df-dc47-41dc-b83f-907f053bd8f8",
+	"folder_id": 0,
+	"environment_id": "20111167-7af4be73-c533-4474-9a7e-35aff3f69a6d",
+	"totalPass": 43,
+	"totalFail": 2,
+	"results": [
+		{
+			"id": "49e56f80-60f3-4196-a259-0547a74217d6",
+			"name": "New Request",
+			"time": 221,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 500ms": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 500ms": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				268,
+				277,
+				221
+			],
+			"allTests": [
+				{
+					"Response time is less than 500ms": true,
+					"Status code is 200": true
+				},
+				{
+					"Response time is less than 500ms": true,
+					"Status code is 200": true
+				},
+				{
+					"Response time is less than 500ms": true,
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f3c4e5fc-61b2-4e9a-a95e-75b8a6135902",
+			"name": "New Request",
+			"time": 206,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Response time is less than 500ms": true,
+				"To Check if ID is Null or empty": true,
+				"Body matches string": true,
+				"Response body has integer": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 3,
+					"fail": 0
+				},
+				"To Check if ID is Null or empty": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Response body has integer": {
+					"pass": 2,
+					"fail": 1
+				}
+			},
+			"times": [
+				268,
+				254,
+				206
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Response time is less than 500ms": true,
+					"To Check if ID is Null or empty": true,
+					"Body matches string": true,
+					"Response body has integer": false
+				},
+				{
+					"Status code is 201": true,
+					"Response time is less than 500ms": true,
+					"To Check if ID is Null or empty": true,
+					"Body matches string": true,
+					"Response body has integer": true
+				},
+				{
+					"Status code is 201": true,
+					"Response time is less than 500ms": true,
+					"To Check if ID is Null or empty": true,
+					"Body matches string": true,
+					"Response body has integer": true
+				}
+			]
+		},
+		{
+			"id": "203b4a1f-b453-468c-90f6-6ee9d0a02807",
+			"name": "New Request",
+			"time": 209,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 500ms": true,
+				"To Check if ID is Null or empty": true,
+				"Body matches string": true,
+				"Response body has integer": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 2,
+					"fail": 1
+				},
+				"To Check if ID is Null or empty": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Response body has integer": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				1058,
+				269,
+				209
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": false,
+					"To Check if ID is Null or empty": true,
+					"Body matches string": true,
+					"Response body has integer": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true,
+					"To Check if ID is Null or empty": true,
+					"Body matches string": true,
+					"Response body has integer": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true,
+					"To Check if ID is Null or empty": true,
+					"Body matches string": true,
+					"Response body has integer": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "b428716e-3223-4cda-8079-876c65b9a948",
+			"name": "New Request",
+			"time": 169,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 500ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				246,
+				163,
+				169
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 3608,
+	"collection": {
+		"requests": [
+			{
+				"id": "49e56f80-60f3-4196-a259-0547a74217d6",
+				"method": "GET"
+			},
+			{
+				"id": "f3c4e5fc-61b2-4e9a-a95e-75b8a6135902",
+				"method": "POST"
+			},
+			{
+				"id": "203b4a1f-b453-468c-90f6-6ee9d0a02807",
+				"method": "PUT"
+			},
+			{
+				"id": "b428716e-3223-4cda-8079-876c65b9a948",
+				"method": "DELETE"
+			}
+		]
+	}
+}
